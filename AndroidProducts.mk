@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_Z01R.mk
+    $(LOCAL_DIR)/cherish_Z01R.mk
+
+    COMMON_LUNCH_CHOICES := \
+    cherish_Z01R-user \
+    cherish_Z01R-userdebug \
+    cherish_Z01R-eng
