@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_Z01R.mk
+    $(LOCAL_DIR)/palladium_Z01R.mk
+	
+    COMMON_LUNCH_CHOICES := \
+    palladium_Z01R-user \
+    palladium_Z01R-userdebug \
+    palladium_Z01R-eng
