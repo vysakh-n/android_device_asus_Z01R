@@ -32,6 +32,15 @@ PRODUCT_MODEL := Zenfone 5Z
 PRODUCT_NAME := palladium_Z01R
 PALLADIUM_BUILD_VARIANT:= GAPPS
 
+# Maintainer & Device Props
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.palladiumdevice.maintainer=Vysakh_N \
+    ro.palladiumdevice.cpu=SDM845\
+    ro.palladiumdevice.display=6.2 \
+    ro.palladiumdevice.displaytype=IPS LCD \
+    ro.palladiumdevice.battery=3300mAh \
+    ro.palladiumdevice.camera=12MP+8MP+8MP
+
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
 TARGET_VENDOR_PRODUCT_NAME := Z01R
