@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_Z01R.mk
+    $(LOCAL_DIR)/nad_Z01R.mk
+	
+COMMON_LUNCH_CHOICES := \
+    nad_Z01R-user \
+    nad_Z01R-userdebug \
+    nad_Z01R-eng
