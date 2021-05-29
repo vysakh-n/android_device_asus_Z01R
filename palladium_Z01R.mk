@@ -25,12 +25,12 @@ $(call inherit-product, device/asus/Z01R/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/palladium/config/common_full_phone.mk)
 
-PRODUCT_BRAND := asus
-PRODUCT_DEVICE := Z01R
-PRODUCT_MANUFACTURER := asus
-PRODUCT_MODEL := Zenfone 5Z
-PRODUCT_NAME := palladium_Z01R
+# Boot Animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Gapps
 PALLADIUM_BUILD_VARIANT:= GAPPS
+TARGET_GAPPS_ARCH := arm64
 
 # Maintainer & Device Props
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -40,6 +40,16 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.palladiumdevice.displaytype=IPS LCD \
     ro.palladiumdevice.battery=3300mAh \
     ro.palladiumdevice.camera=12MP+8MP+8MP
+	
+
+# Device identifier. This must come after all inclusions.
+PRODUCT_BRAND := asus
+PRODUCT_DEVICE := Z01R
+PRODUCT_MANUFACTURER := asus
+PRODUCT_MODEL := Zenfone 5Z
+PRODUCT_NAME := palladium_Z01R
+
+
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
