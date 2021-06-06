@@ -356,16 +356,16 @@ PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
 # NFC
-PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.2-service \
-    android.hardware.secure_element@1.2 \
-    com.android.nfc_extras \
-    com.nxp.nfc.nq \
-    libnqnfc_nci_jni \
-    nfc_nci.nqx.default.hw \
-    NQNfcNci \
-    Tag \
-    vendor.nxp.hardware.nfc@2.0-service
+#PRODUCT_PACKAGES += \
+#    android.hardware.nfc@1.2-service \
+#    android.hardware.secure_element@1.2 \
+#    com.android.nfc_extras \
+#    com.nxp.nfc.nq \
+#    libnqnfc_nci_jni \
+#    nfc_nci.nqx.default.hw \
+#    NQNfcNci \
+#    Tag \
+#    vendor.nxp.hardware.nfc@2.0-service
 
 # Power
 PRODUCT_PACKAGES += \
