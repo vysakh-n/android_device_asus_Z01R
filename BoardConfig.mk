@@ -93,6 +93,7 @@ TARGET_USES_QTI_CAMERA_DEVICE := true
 
 # Charger
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
+BOARD_HEALTHD_CUSTOM_CHARGER_RES := $(DEVICE_PATH)/charger/images
 
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
@@ -169,12 +170,10 @@ ENABLE_VENDOR_RIL_SERVICE := true
 TARGET_RIL_VARIANT := caf
 
 # Root
-BOARD_ROOT_EXTRA_FOLDERS := odm oem
+BOARD_ROOT_EXTRA_FOLDERS := APD asdf odm oem
 
 BOARD_ROOT_EXTRA_SYMLINKS := \
     /vendor/ADF:/ADF \
-    /vendor/APD:/APD \
-    /vendor/asdf:/asdf \
     /vendor/factory:factory
 
 # Security patch level
